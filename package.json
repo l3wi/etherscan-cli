@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "description": "First-class Etherscan API V2 CLI built with incur.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l3wi/etherscan-cli.git"
+  },
+  "homepage": "https://github.com/l3wi/etherscan-cli#readme",
+  "bugs": {
+    "url": "https://github.com/l3wi/etherscan-cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "etherscan": "./dist/bin.js"
   },
